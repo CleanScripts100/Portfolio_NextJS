@@ -10,22 +10,22 @@ const arr = [
     id: 1,
     icon: <Icon1 />,
     background: "#F2F7F6",
-    title: "",
-    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor? ",
+    title: "DESIGN ORIENTED",
+    text: "I specialize in developing visually engaging and user-friendly web applications with a commitment to user-centric design principles. Proficient in UI/UX, I guarantee responsive interfaces, meticulous attention to detail, and smooth collaboration with fellow designers. My goal is to elevate the overall user experience by integrating coding expertise with a keen focus on aesthetic and usability elements.",
   },
   {
     id: 2,
     icon: <Icon2 />,
     background: "#F3F3F3",
-    title: "",
-    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor? ",
+    title: "ADAPTABILITY",
+    text: "I possess the ability to navigate and thrive in an ever-changing technological landscape, seamlessly adjusting to new tools, methodologies, and project requirements. I am an adaptable developer that embraces change with enthusiasm, understanding that technology evolves rapidly. When faced with shifting priorities or emerging technologies, I pivot gracefully, leveraging diverse skillset to meet the demands.",
   },
   {
     id: 3,
     icon: <Icon3 />,
     background: "#F9F9FF",
-    title: "",
-    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor? ",
+    title: "TEST DRIVEN DEVELOPMENT",
+    text: "A web developer proficient in Test-Driven Development (TDD), adhering to the disciplined TDD cycle, crafting comprehensive tests, and automating testing processes to detect regressions early. I excel in integration testing, collaborate seamlessly with QA teams, and maintain test suites as the codebase evolves. I embrace the Red-Green-Refactor philosophy, and prioritise writing failing tests, implementing minimal code for passing tests, and confidently refactoring code.",
   },
 ];
 
