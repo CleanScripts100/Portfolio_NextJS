@@ -1,6 +1,6 @@
 import HeroImage from "../imgs/hero-bg.svg";
-import HeroTitle from "../imgs/fortunat.svg";
-import HeroTitleSmall from "../imgs/fortunat-small.svg";
+import HeroTitle from "../imgs/mutunda-logo.svg";
+import HeroTitleSmall from "../imgs/mutunda-logo.svg";
 import styled from "@emotion/styled";
 import { useEffect, useState } from "react";
 
