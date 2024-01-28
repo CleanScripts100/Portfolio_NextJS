@@ -9,6 +9,15 @@ import Teact from "../../imgs/react.svg";
 import NodeIcon from "../../imgs/node.svg";
 import OCLIF from "../../imgs/OCLIF.svg";
 import JSIcon from "../../imgs/javascript.svg";
+import Tailwind from "../../imgs/tailwind-css-wordmark.svg";
+import Redux from "../../imgs/redux.svg";
+import Saas from "../../imgs/sass-1.svg";
+import MySQL from "../../imgs/mysql-logo.svg";
+import GraphQL from "../../imgs/graphql-logo-2.svg";
+import CSharp from "../../imgs/c--4.svg";
+import Azure from "../../imgs/azure-1.svg";
+import AWS from "../../imgs/aws-2.svg";
+import Mongo from "../../imgs/Mongo.svg";
 
 const arr = [
   {
@@ -50,6 +59,61 @@ const arr = [
     id: 8,
     title: "Javascript/TS",
     icon: <JSIcon />,
+  },
+  {
+    id: 9,
+    title: "Redux",
+    icon: <Redux />,
+  },
+  {
+    id: 10,
+    title: "RESTAPI",
+    icon: <OCLIF />,
+  },
+  {
+    id: 11,
+    title: "GraphQL",
+    icon: <GraphQL />,
+  },
+  {
+    id: 12,
+    title: "Tailwind",
+    icon: <Tailwind />,
+  },
+  {
+    id: 13,
+    title: "SASS",
+    icon: <Saas />,
+  },
+  {
+    id: 14,
+    title: "MYSQL",
+    icon: <MySQL />,
+  },
+  {
+    id: 15,
+    title: "AWS",
+    icon: <AWS />,
+  },
+  {
+    id: 16,
+    title: "AZURE",
+    icon: <Azure />,
+  },
+  {
+    id: 17,
+    title: "C-SHARP",
+    icon: <CSharp />,
+  },
+  {
+    id: 18,
+    title: "Mongo",
+    icon: <Mongo />,
+  },
+  {
+    id: 19,
+    title: "PHP",
+    icon: <OCLIF />,
   },
 ];
 

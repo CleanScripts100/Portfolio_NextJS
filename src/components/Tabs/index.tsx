@@ -33,7 +33,7 @@ const TabsNavigation = () => {
       </h3>
       <Tabs>
         <div title="Kenigbolo Consulting">
-          <h3>Software Engineer @Kenigbolo Consulting</h3>
+          <h3>Front-End Engineer @Kenigbolo Consulting</h3>
           <h5>Aug 2023 - Present</h5>
           <p>
             Collaborating cross-functionally, I transformed core frameworks with
@@ -45,8 +45,8 @@ const TabsNavigation = () => {
             for quality assurance and stability.
           </p>
         </div>
-        <div title="Integrify">
-          <h3>Software Engineer @Integrify Software Academy</h3>
+        <div title="Integrify Software Academy">
+          <h3>Front-End Engineer @Integrify Software Academy</h3>
           <h5>Aug 2023 - Present</h5>
           <p>
             As a freelance developer for a software academy, I bring diverse
@@ -55,18 +55,6 @@ const TabsNavigation = () => {
             contribute to innovative software solutions. My goal is not only to
             deliver high-quality code but also to mentor and empower aspiring
             developers through the academy&rsquo;s educational initiatives.
-          </p>
-        </div>
-        <div title="Namespace">
-          <h3>Software Engineer @Namespace</h3>
-          <h5>Aug 2018 - Present</h5>
-          <p>
-            The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax
-            quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick
-            quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! The quick,
-            brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.
-            Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex
-            nymphs. Waltz, bad nymph, for quick jigs vex!
           </p>
         </div>
         <div title="Bolt Operations">
