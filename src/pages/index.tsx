@@ -5,6 +5,7 @@ import Competence from "../components/Competence";
 import About from "../components/About";
 import Tabs from "../components/Tabs/index";
 import Technologies from "../components/Technologies/index";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <About />
       <Tabs />
       <Technologies />
+      <Contact />
     </div>
   );
 }
