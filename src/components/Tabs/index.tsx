@@ -32,8 +32,8 @@ const TabsNavigation = () => {
         Where I&apos;ve worked
       </h3>
       <Tabs>
-        <div title="Kenigbolo Consulting">
-          <h3>Front-End Engineer @Kenigbolo Consulting</h3>
+        <div title="Speed Commerce">
+          <h3>Front-End Engineer @Speed Commerce</h3>
           <h5>Mar 2023 - Present</h5>
           <p>
             Collaborating cross-functionally, I transformed core frameworks with
@@ -49,7 +49,7 @@ const TabsNavigation = () => {
           <h3>Front-End Engineer @Integrify Software Academy</h3>
           <h5>Aug 2022 - Mar 2023</h5>
           <p>
-            As a freelance developer for a software academy, I bring diverse
+            As a full-stack developer for a software academy, I bring diverse
             expertise in programming languages and frameworks. Committed to
             continuous learning and staying updated on industry trends, I
             contribute to innovative software solutions. My goal is not only to
