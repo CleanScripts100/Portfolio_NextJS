@@ -46,7 +46,7 @@ const TabsNavigation = () => {
           </p>
         </div>
         <div title="Integrify Software Academy">
-          <h3>Front-End Engineer @Integrify Software Academy</h3>
+          <h3>Full-Stack Software Engineer @Integrify Software Academy</h3>
           <h5>Aug 2022 - Mar 2023</h5>
           <p>
             As a full-stack developer for a software academy, I bring diverse
