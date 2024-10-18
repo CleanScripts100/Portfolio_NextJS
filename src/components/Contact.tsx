@@ -59,9 +59,9 @@ const Input = styled.input`
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;
-  height: 50px;
+  height: 55px;
   box-sizing: border-box;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 
   &:focus {
     border-color: #478778; /* Change border color on focus */
@@ -84,13 +84,14 @@ const Textarea = styled.textarea`
 `;
 
 const SubmitButton = styled.button`
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 1.5rem;
   background-color: #478778;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   color: #3b4754;
   border: none;
   border-radius: 25px;
+  cursor: pointer;
 `;
 
 const Contact: React.FunctionComponent = () => {
@@ -168,7 +169,7 @@ const Contact: React.FunctionComponent = () => {
                   value={formData.message}
                   onChange={handleInputChange}
                   required
-                  rows={5}
+                  rows={8}
                   placeholder=" " // Add a placeholder to trigger not-empty state
                 />
                 <Label htmlFor="message">Message</Label>
