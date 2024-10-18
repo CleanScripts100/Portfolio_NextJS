@@ -59,7 +59,9 @@ const Input = styled.input`
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;
+  height: 50px;
   box-sizing: border-box;
+  margin-bottom: 10px;
 
   &:focus {
     border-color: #478778; /* Change border color on focus */
