@@ -4,6 +4,7 @@ import styled from "@emotion/styled";
 const StyledContact = styled.div`
   padding: 4rem 12vw;
   background: #fafaff;
+  margin-bottom: 40px;
 `;
 
 const Title = styled.h3`

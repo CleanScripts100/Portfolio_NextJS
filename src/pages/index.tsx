@@ -6,6 +6,7 @@ import About from "../components/About";
 import Tabs from "../components/Tabs/index";
 import Technologies from "../components/Technologies/index";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Tabs />
       <Technologies />
       <Contact />
+      <Footer />
     </div>
   );
 }
