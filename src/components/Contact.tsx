@@ -26,12 +26,16 @@ const Contact: React.FunctionComponent = () => {
       <h3
         className={css`
           text-align: center;
+          text-align: center;
           font-family: "Josefin Sans", sans serif;
-          font-size: 1.5rem;
-          line-height: 1;
-          font-weight: 500;
+          font-size: clamp(30px, 4vw, 40px);
           text-transform: uppercase;
-          margin-top: 4rem;
+          font-weight: 700;
+          color: #3b4754;
+          padding-top: 30px;
+
+          @media (max-width: 767.98px) {
+          padding-left: 0;
         `}
       >
         Contacts

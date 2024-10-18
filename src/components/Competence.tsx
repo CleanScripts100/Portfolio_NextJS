@@ -11,21 +11,21 @@ const arr = [
     icon: <Icon1 />,
     background: "#F2F7F6",
     title: "DESIGN ORIENTED",
-    text: "I specialize in creating visually engaging and user-friendly web applications with a commitment to user-centric design. Proficient in UI/UX, I ensure responsive interfaces, meticulous attention to detail, and seamless collaboration with fellow designers, aiming to elevate the overall user experience.",
+    text: "Proficiency in front-end development is driven by a design-oriented approach, ensuring visually appealing, responsive, and user-friendly interfaces. Skills in React, TypeScript, and Next.js enable the translation of design concepts into functional applications. Tools like Webpack and Browsersync are utilized to optimize performance and ensure seamless cross-browser compatibility, with a focus on enhancing user experience through responsive design.",
   },
   {
     id: 2,
     icon: <Icon2 />,
     background: "#F3F3F3",
     title: "ADAPTABILITY",
-    text: "I navigate and thrive in a dynamic technological landscape, seamlessly adapting to new tools, methodologies, and project requirements. As an adaptable developer, I embrace change with enthusiasm and pivot gracefully to meet evolving demands, leveraging my diverse skillset in response to shifting priorities or emerging technologies.",
+    text: "Experience working in full-stack environments highlights adaptability in integrating front-end components with backend services using technologies such as REST APIs, Redux, and MongoDB. Strong collaboration skills enable effective communication across teams, ensuring alignment between design, functionality, and business goals. Flexibility in learning and applying new technologies further supports an agile development process.",
   },
   {
     id: 3,
     icon: <Icon3 />,
     background: "#F9F9FF",
     title: "TEST DRIVEN DEVELOPMENT",
-    text: "As a TDD-proficient web developer, I follow the disciplined TDD cycle, create comprehensive tests for early regression detection, and maintain evolving test suites. Experienced in integration testing and collaborative QA engagement, I embrace the Red-Green-Refactor philosophy by prioritizing failing tests, minimal code for passing tests, and confident refactoring.",
+    text: "A focus on test-driven development ensures high-quality, reliable code. Proficiency with tools like Jest for unit testing and collaboration with QA teams for integration testing ensures code functionality and scalability. This approach identifies and resolves issues early, supporting continuous improvement and delivering robust applications that meet performance standards.",
   },
 ];
 
@@ -68,10 +68,13 @@ const Competence: React.FunctionComponent = () => {
         className={css`
           text-align: center;
           font-family: "Josefin Sans", sans serif;
-          font-size: 1.5rem;
-          line-height: 1;
-          font-weight: 500;
+          font-size: clamp(30px, 4vw, 40px);
           text-transform: uppercase;
+          font-weight: 700;
+          color: #3b4754;
+
+          @media (max-width: 767.98px) {
+          padding-left: 0;
         `}
       >
         Competence

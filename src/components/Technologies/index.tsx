@@ -27,8 +27,8 @@ const arr = [
   },
   {
     id: 2,
-    title: "React(Native)",
-    icon: <ReactIcon />,
+    title: "React",
+    icon: <Teact />,
   },
   {
     id: 3,
@@ -42,8 +42,8 @@ const arr = [
   },
   {
     id: 5,
-    title: "React",
-    icon: <Teact />,
+    title: "React(Native)",
+    icon: <ReactIcon />,
   },
   {
     id: 6,
@@ -123,11 +123,15 @@ const Technologies = () => {
       <h3
         className={css`
           text-align: center;
+          text-align: center;
           font-family: "Josefin Sans", sans serif;
-          font-size: 1.5rem;
-          line-height: 1;
-          font-weight: 600;
+          font-size: clamp(30px, 4vw, 40px);
           text-transform: uppercase;
+          font-weight: 700;
+          color: #3b4754;
+
+          @media (max-width: 767.98px) {
+          padding-left: 0;
         `}
       >
         Technologies
